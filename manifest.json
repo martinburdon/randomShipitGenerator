@@ -1,0 +1,17 @@
+{
+	"name": "Random Shipit Generator",
+	"version": "0.0.4",
+	"manifest_version": 2,
+	"content_scripts": [
+		{
+			"matches": ["http://*/*", "https://*/*"],
+			"js": [
+				"libs/jQuery.min.js",
+				"content.js"
+			],
+			"css": [
+				"css/styles.css"
+			]
+		}
+	]
+}
