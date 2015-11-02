@@ -27,7 +27,7 @@ mtb.randomShipit = mtb.randomShipit || {};
 	};
 
 	this.appendShipitButton = function() {
-		$('.js-comment-and-button').after('<button type="button" class="button js-random-shipit"><span class="btn-text">Random</span><img class="btn-icon" height="20" width="20" src="https://assets-cdn.github.com/images/icons/emoji/shipit.png"></button>');
+		$('.js-comment-and-button').after('<button type="button" class="btn js-random-shipit"><span class="btn-text">Random</span><img class="btn-icon" height="20" width="20" src="https://assets-cdn.github.com/images/icons/emoji/shipit.png"></button>');
 	};
 
 	this.setupBindings = function() {
