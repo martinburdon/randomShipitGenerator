@@ -1,5 +1,6 @@
 .btn.js-random-shipit {
-	float: left;
+	float: left !important;
+	padding: 5px 12px;
 }
 
 .btn-text {
