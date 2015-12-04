@@ -18,5 +18,6 @@
 		"16": "images/16x16-normal.png",
 		"48": "images/48x48-normal.png",
 		"128": "images/128x128-normal.png"
-	}
+	},
+	"web_accessible_resources": ["images/xmas/38x38.png"]
 }
