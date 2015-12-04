@@ -18,7 +18,18 @@ mtb.randomShipit = mtb.randomShipit || {};
 		':sheep:',
 		':package:',
 		':package:',
-		':package:'
+		':package:',
+		':ship: :it:',
+		':boat: :it:',
+		':speedboat: :it:',
+		':fish: :it:',
+		':tropical_fish: :it:',
+		':truck: :it:',
+		':rocket:',
+		':ok:',
+		':ok_hand:',
+		':thumbsup:',
+		':100:',
 	];
 
 	this.init = function() {
