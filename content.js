@@ -51,7 +51,7 @@ mtb.randomShipit = mtb.randomShipit || {};
 		var date = new Date();
 		var month = date.getMonth();
 
-		return month !== 12;
+		return month === 11;
 	};
 
 	this.setupBindings = function() {
