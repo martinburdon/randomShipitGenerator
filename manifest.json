@@ -1,10 +1,10 @@
 {
 	"name": "Random Shipit Generator",
-	"version": "0.0.8",
+	"version": "0.0.10",
 	"manifest_version": 2,
 	"content_scripts": [
 		{
-			"matches": ["http://*/*", "https://*/*"],
+			"matches": ["https://github.com/*", "http://github.com/*"],
 			"js": [
 				"libs/jQuery.min.js",
 				"content.js"
