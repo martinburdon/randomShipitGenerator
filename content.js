@@ -56,6 +56,21 @@ mtb.randomShipit = mtb.randomShipit || {};
 
 	this.setupBindings = function() {
 		$(document).on('click', '.js-random-shipit', self.getRandomShipit);
+
+		var gitHubElWrapper = document.getElementById('js-pjax-loader-bar');
+		var observer = new window.MutationObserver(function(mutations, observer) {
+			// fired when a mutation occurs
+			if ($('.js-random-shipit').length === 0) {
+				self.appendShipitButton();
+			}
+		});
+
+		// define what element should be observed by the observer
+		// and what types of mutations trigger the callback
+		observer.observe(gitHubElWrapper, {
+			subtree: false,
+			attributes: true
+		});
 	};
 
 	this.getRandomShipit = function() {
