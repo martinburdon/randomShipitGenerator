@@ -17,15 +17,8 @@ mtb.randomShipit = mtb.randomShipit || {};
 		':ok:',
 		':ok_hand:',
 		':thumbsup:',
-		':100:',
-		'![image](http://i.imgur.com/DOs4yj8.gif)',
-		'![image](http://i.imgur.com/DOs4yj8.gif)',
-		'![image](http://i.imgur.com/DOs4yj8.gif)',
-		'![image](http://i.imgur.com/DOs4yj8.gif)',
-		'![image](http://i.imgur.com/DOs4yj8.gif)',
-		'![image](http://i.imgur.com/DOs4yj8.gif)',
-		'![image](http://i.imgur.com/DOs4yj8.gif)',
-		'![image](http://i.imgur.com/DOs4yj8.gif)'
+		':100:'
+		// '![image](http://i.imgur.com/DOs4yj8.gif)'
 	];
 
 	this.init = function() {

@@ -1,6 +1,6 @@
 {
 	"name": "Random Shipit Generator",
-	"version": "0.0.14",
+	"version": "0.0.15",
 	"manifest_version": 2,
 	"content_scripts": [
 		{
